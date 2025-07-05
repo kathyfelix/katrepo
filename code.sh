@@ -10,7 +10,7 @@ else
 	if [ $? -eq 0 ]; then
 		echo "installed successfully"
 	else
-		echo " installed failed"
+		echo " installed failed !"
 	fi
 fi
 
