@@ -1,7 +1,7 @@
 #!/bin/bash
 dpkg -l apache2 &> /dev/null
 if [ $? -eq 0 ]; then
-	echo "Already Installed"
+	echo "Already Installed correctly"
 else
 	echo "Not Installed"
 	echo "Attempting to install again"
